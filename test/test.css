@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: middle;
+}
+
+table {
+  width: 800px;
+}
+
+.name {
+  background-color: rgb(102, 175, 218);
+  width: 200px;
+}
+
+.number {
+  background-color: rgb(248, 155, 68);
+  width: 5px;
+}
+
+.time {
+  background-color: rgb(248, 216, 128);
+  width: 50px;
+}
+
+.semester {
+  background-color: rgb(63, 76, 248);
+}
+
+.week {
+  background-color: rgb(94, 206, 250);
+  width: 100px;
+}
+
+.class {
+  background-color: rgb(94, 250, 146);
+}
+
+.adress {
+  background-color: rgb(232, 94, 250);
+}
+
+.email {
+  background-color: rgb(250, 94, 115);
+}
